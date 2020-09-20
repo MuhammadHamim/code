@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Slider</title> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        .slider1{
+            background: linear-gradient(rgba(110, 255, 171, 0.877),rgba(108, 218, 233, 0.822)),
+            url('https://picsum.photos/id/458/3000/1000');
+            height:100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .slider2{
+            background:linear-gradient(rgba(0, 0, 0, 0.452),rgba(0, 0, 0, 0.733)),
+            url(https://picsum.photos/id/669/3000/1000);
+            height:100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .slider3{
+            background:linear-gradient(rgba(0, 0, 0, 0.452),rgba(0, 0, 0, 0.733)),
+            url(https://picsum.photos/id/875/3000/1000);
+            height:100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .slider4{
+            background:linear-gradient(rgba(0, 0, 0, 0.452),rgba(0, 0, 0, 0.733)),
+            url(https://picsum.photos/id/100/3000/1000);
+            height:100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .slider5{
+            background:linear-gradient(rgba(0, 0, 0, 0.452),rgba(0, 0, 0, 0.733)),
+            url(https://picsum.photos/id/122/3000/1000);
+            height:100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .slider6{
+            background:linear-gradient(rgba(0, 0, 0, 0.452),rgba(0, 0, 0, 0.733)),
+            url(https://picsum.photos/id/600/3000/1000);
+            height:100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- slider -->
+
+    <div id="slider1" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#slider1" data-slide-to="0"></li>
+            <li  data-target="#slider1" data-slide-to="1"></li>
+            <li  data-target="#slider1" data-slide-to="2"></li>
+            <li  data-target="#slider1" data-slide-to="3"></li>
+            <li  data-target="#slider1" data-slide-to="4"></li>
+            <li  data-target="#slider1" data-slide-to="5"></li>
+            
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            
+            <div class="carousel-item active">
+                <div class="d-block img-fluid slider1">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-block img-fluid slider2">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-block img-fluid slider3">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-block img-fluid slider4">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-block img-fluid slider5">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-block img-fluid slider6">
+                </div>
+            </div>
+
+        </div>
+        <a href="#slider1" class="carousel-control-prev" data-slide="prev">
+            <div class="carousel-control-prev-icon"></div>
+        </a>
+        <a href="#slider1" class="carousel-control-next" data-slide="next">
+            <div class="carousel-control-next-icon"></div>
+        </a>
+    </div>
+    <!-- slider -->
+
+
+
+
+    <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<script>
+    $('.carousel').carousel({
+        interval : 150000,
+        pause : 'hover',
+        wrap: true,
+        keyboard: true
+    });
+</script>
+ <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+         /*extra small devices (portrait phones)*/
+         @media(max-width: 575px){
+            body{
+                background: red;
+            }
+        }
+        
+        /*small devices (landscape phones)*/
+        @media(min-width:576px){
+            body{
+            background: green;
+            }
+        }
+        /*medium devices (tablets)*/
+        @media(min-width: 768px){
+            body{
+            background: orangered;
+            }
+        /*large devices (desktop)*/
+        @media(min-width:992px){
+            body{
+                background: #333;
+            }
+
+        }
+        /* extra large device(large desktop)*/
+        @media(min-width: 1200px){
+            body{
+                background: rgb(4, 33, 58);
+            }
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <h5>Breakpoint</h5>
+    </div>
+</body>
+</html>

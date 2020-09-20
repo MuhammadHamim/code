@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #2c3e50;
+        }
+        a{
+            text-decoration: none;
+            color:#6F1E51 ;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size:30px;
+            padding: 20px 50px;
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            transition: 0.5s;
+        }
+        a:hover{
+            color: white;
+            
+
+        }
+        a span{
+            position: absolute;
+            display: block;
+        }
+        a span:nth-child(1){
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 10px;
+            background: linear-gradient(90deg,transparent,#6F1E51);
+        }
+        a:hover span:nth-child(1){
+            left: 100%;
+            transition: 1s;
+        }
+
+        a span:nth-child(3){
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            height: 10px;
+            background: linear-gradient(270deg,transparent,#6F1E51);
+        }
+        a:hover span:nth-child(3){
+            right: 100%;
+            transition: 1s;
+            transition-delay: 0.5s;
+        }
+
+        a span:nth-child(2){
+            right: 0;
+            top: -100%;
+            width: 10px;
+            height: 100%;
+            background: linear-gradient(180deg,transparent,#6F1E51);
+        }
+        a:hover span:nth-child(2){
+            top: 100%;
+            transition: 1s;
+            transition-delay: 0.25s;
+        }
+
+        a span:nth-child(4){
+            left: 0;
+            bottom: -100%;
+            width: 10px;
+            height: 100%;
+            background: linear-gradient(380deg,transparent,#6F1E51);
+        }
+        a:hover span:nth-child(4){
+            bottom: 100%;
+            transition: 1s;
+            transition-delay: 0.75s;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Hover Me
+    </a>
+</body>
+</html>

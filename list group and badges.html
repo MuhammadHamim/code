@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list group and badges</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="display-4 text-capitalize mb-5 text-capitalize text-center mt-5">list group and badges</h1>
+    <div class="container" style="padding:200px 0;">
+        <!-- list group -->
+        <ul class="list-group">
+            <li class="list-group-item text-capitalize text-center">my list item one</li>
+            <li class="list-group-item text-capitalize text-center">my list item Two</li>
+            <li class="list-group-item text-capitalize text-center">my list item three</li>
+            <li class="list-group-item text-capitalize text-center">my list item four</li>
+            <li class="list-group-item text-capitalize text-center">my list item five</li>
+        </ul>
+        <br><br>
+        <!-- list group -->
+        <!-- list group with links -->
+        <ul class="list-group">
+            <a class="list-group-item list-group-item-action active" href="#">my list item one</a>
+            <a class="list-group-item list-group-item-action" href="#">my list item two</a>
+            <a class="list-group-item list-group-item-action" href="#">my list item three</a>
+            <a class="list-group-item list-group-item-action" href="#">my list item four</a >
+            <a class="list-group-item list-group-item-action" href="#">my list item five</a>
+        </ul>
+        <br><br><br>
+        <!-- list group with links -->
+        <!-- contextual classes -->
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-action list-group-item-primary">my list item one</li>
+            <li class="list-group-item list-group-item-action list-group-item-secondary">my list item two</li>
+            <li class="list-group-item list-group-item-action list-group-item-danger">my list item three</li>
+            <li class="list-group-item list-group-item-action list-group-item-warning">my list item four</li>
+            <li class="list-group-item list-group-item-action list-group-item-info">my list item five</li>
+        </ul><br><br><br>
+        <!-- contextual classes -->
+        <!-- badge -->
+            <span class="badge badge-pill badge-primary">Primary</span>
+            <span class="badge badge-pill badge-secondary">Secondary</span>
+            <span class="badge badge-pill badge-success">Success</span>
+            <span class="badge badge-pill badge-danger">Danger</span>
+            <span class="badge badge-pill badge-warning">Warning</span>
+            <span class="badge badge-pill badge-info">Info</span>
+            <span class="badge badge-pill badge-light">Light</span>
+            <span class="badge badge-pill badge-dark">Dark</span>
+        <!-- badge -->
+        <!-- list group with badges -->
+        <ul class="list-group">
+            <li class="list-group-item">My item one</li>
+            <li class="list-group-item">My item two <span class="badge badge-primary align-top">23</span> </li><!-- here write the badge classes -->
+            <li class="list-group-item">My item three <span>43</span> </li>
+            <li class="list-group-item">My item four</li>
+            <li class="list-group-item">My item five</li>
+        </ul><br><br><br>
+        <!-- list group with badges -->
+        <!-- custom content -->
+        <div class="list-group d-flex">
+            <a class="list-group-item list-group-item-action active" href="#">
+                <div>
+                    <h5>My post one</h5>
+                    <small>3 days ago</small>
+                </div>
+                <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut temporibus sit recusandae ut vitae error tempora molestias at veritatis quo?</p>
+                <small>By Hamim</small>
+            </a>
+
+            <a class="list-group-item list-group-item-action" href="#">
+                <div>
+                    <h5>My post two</h5>
+                    <small>3 days ago</small>
+                </div>
+                <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut temporibus sit recusandae ut vitae error tempora molestias at veritatis quo?</p>
+                <small>By Hamim</small>
+            </a>
+
+            <a class="list-group-item list-group-item-action" href="#">
+                <div>
+                    <h5>My post three</h5>
+                    <small>3 days ago</small>
+                </div>
+                <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut temporibus sit recusandae ut vitae error tempora molestias at veritatis quo?</p>
+                <small>By Hamim</small>
+            </a>
+
+        </div><br><br><br>
+        <!-- custom content -->
+        <!-- breadcrumb -->
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active">Home</li>
+        </ol>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active">Users</li>
+        </ol>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Users</a></li>
+            <li class="breadcrumb-item active">Hamim</li>
+        </ol>
+        <!-- breadcrumb -->
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->    
+</body>
+</html>

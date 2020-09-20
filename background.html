@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .head{
+            background: #303952;
+            height: 100vh;
+        }
+        .head::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 495px;
+    height: 56px;
+    width: 177px;
+    background: #262d42;
+    transform: skewY(42deg);
+}
+
+.hamim::before {
+    content: '';
+    position: absolute;
+    top: 249px;
+    width: 44px;
+    height: 388px;
+    left: 451px;
+    background: #262d42;
+    transform: skewY(-45deg);
+}
+.hamim::after {
+    content: '';
+    position: absolute;
+    top: 360px;
+    width: 44px;
+    height: 388px;
+    right: 1206px;
+    background: #262d42;
+    transform: skewY(-45deg);
+}
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="hamim">
+        </div>
+    </div>
+</body>
+</html>

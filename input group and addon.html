@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input group and addon</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+
+<h1 class="display-5 text-center text-capitalize mt-5">input group and addon</h1>
+<br><br><br><hr>
+
+<div class="container">
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text">@</span>
+        </div>
+        <input class="form-control" type="text" placeholder="Username">
+    </div>
+    <br>
+    <div class="input-group">
+        <input class="form-control " type="email" placeholder="Email address">
+        <div class="input-group-append">
+            <span class="input-group-text">@something.com</span>
+        </div>
+    </div>
+    <br>
+    <label for="profile-url">Choose profile URL</label>
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text">https://something.com/yourname/</span>
+        </div>
+        <input class="form-control" type="text" id="profile-url">
+    </div><br>
+    <div class="input-group">
+        <div class="input-group-prepend">
+         <span class="input-group-text">$</span>
+        </div>
+        <input class="form-control" type="text">
+        <div class="input-group-append">
+            <span class="input-group-text">.00</span>
+        </div>
+    </div><br>
+
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Username">
+        </div>
+        <br>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <input type="checkbox">
+                </div>
+            </div>
+            <input type="text" class="form-control">
+        </div><br>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <input type="radio" class="mr-1">$5.00
+                </div>
+            </div>
+            <input type="text" class="form-control">
+        </div>
+        <br>
+        
+        <div class="input-group">
+            <input type="text" class="form-control">
+            <div class="input-group-append">
+                <button type="button" class="btn btn-outline-secondary">Search</button>
+            </div>
+        </div><br>
+        <div class="input-group">
+            <input type="text" class="form-control">
+            <input type="text" class="form-control">
+            <div class="input-group-append">
+                <button type="button" class="btn btn-outline-secondary">Search</button>
+                <button type="button" class="btn btn-outline-secondary">Search</button>
+            </div>
+        </div><br>
+
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+                    <span class="input-group-text">$</span>
+                    <span class="input-group-text">0.00</span>
+            </div>
+            <input type="text" class="form-control">
+        </div>
+        <br>
+        <div class="input-group">
+            <input type="text" class="form-control">
+            <div class="input-group-prepend">
+                <span class="input-group-text">$</span>
+                <span class="input-group-text">0.00</span>
+            </div>
+        </div>
+        <br>
+        <div class="input-group">
+            <input type="text" class="form-control">
+            <input type="text" class="form-control">
+            <div class="input-group-prepend">
+                <span class="input-group-text">$</span>
+                <span class="input-group-text">0.00</span>
+            </div>
+        </div>
+        <br>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    With Textarea
+                </span>
+            </div>
+            <textarea class="form-control" cols="30" rows="2"></textarea>
+        </div>
+        <br>
+        <div class="input-group input-group-sm">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    Small
+                </span>
+            </div>
+            <input type="text" class="form-control">
+        </div><br>
+        <div class="input-group input-group-md">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    Medium
+                </span>
+            </div>
+            <input type="text" class="form-control">
+        </div><br>
+        <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    Large
+                </span>
+            </div>
+            <input type="text" class="form-control">
+        </div><br>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    First and last name
+                </span>
+            </div>
+            <input type="text" class="form-control">
+            <input type="text" class="form-control">
+        </div><br>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown">Dropdown</button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">home</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">contact</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">about</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">service</a>
+                </div>
+            </div>
+            <input type="text" class="form-control">
+        </div> <br>
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <button type="button" class="btn btn-outline-dark">Dropdown</button>
+                <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown"></button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">home</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">contact</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">about</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">service</a>
+                </div>
+            </div>
+            <input type="text" class="form-control">
+        </div> <br>
+
+</div>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+    
+     <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+</body>
+</html>

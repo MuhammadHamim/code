@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: #353b48;
+}
+.home-page{
+    background: #FACE22;
+    height: 50vh;
+    width: 100%;
+    display:flex;
+}
+.home-word{
+    width: 40%;
+    margin: 20px;
+    margin: 155px;
+}
+.home-word h6{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.home-word h2{
+    font-weight: 800;
+}
+.home-word a {
+    text-decoration: none;
+    background: black;
+    display: block;
+    margin-top: 13px;
+    padding: 12px 30px;
+    width: 170px;
+    border-radius: 30px;
+    color: white;
+    transition: 0.5s;
+}
+
+.home-img{
+    width: 60%;
+    margin: auto;
+}
+.home-img img{
+    width: 70%;
+    transform: rotate(30deg);
+}
+
+.someword {
+    background: white;
+    height: 23vh;
+    overflow: hidden;
+    padding:30px 80px;
+}
+.someword h2{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.someword p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+.download{
+    background: #FACE22;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download h3 {
+    font-size: 21px;
+    font-weight: 700;
+}
+.products{
+    background: white;
+    padding: 30px 0;
+    overflow: hidden;
+
+}
+.products > h4 {
+    margin: 35px 134px;
+    font-weight: 700;
+}
+
+.hot-products{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.headphone{
+    height: 300px;
+    width: 28%;
+    background: #FAC66D;
+    position: relative;
+}
+.headphone img{
+    width: 100%;
+    height: 100%;
+}
+.headphone-img h3 {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    font-size: 13px;
+    background: #fac66d;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.headphone-descripsion{
+    padding: 10px;
+}
+.headphone-descripsion h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.headphone-descripsion p{
+    font-size: 15px;
+}
+
+.new-products h3{
+    margin: 35px 134px;
+    font-weight: 700;
+}
+
+.new-photo1,.new-photo2{
+    width:80% ;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.new {
+    width: 20%;
+    background: #FACE22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.new img {
+    width: 60%;
+    height: 60%;
+}
+.new1{
+    background: #fac66d;
+    padding: 5px 0;
+}
+.new2{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.new2 span{
+    margin-top: 20px;
+}
+.new2 span h5{
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+.new2 span h4{
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+}
+.new2-a{
+    margin: 30px;
+}
+.new2-a a{
+    background: white;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.last{
+    background: white;
+    padding: 50px;
+    overflow: hidden;
+}
+.last h4{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.high{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.high .high1{
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+.high1 h3{
+    font-size: 50px;
+    font-weight: 600;
+    color: #f8d753a2;
+}
+.high1 h3::before{
+    content: 'HIGH QUALITY';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    font-weight: 700;
+    font-size:10px;
+}
+@media(max-width:768px){
+    .home-word h2{
+        font-size:20px ;
+    }
+    .home-word h6{
+        margin-left: 0;
+    }
+    .home-word a{
+        font-size: 13px;
+        padding: 8px 27px;
+        width: 141px;
+    }
+}

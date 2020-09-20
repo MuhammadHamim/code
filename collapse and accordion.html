@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapse and Accordion</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="text-center mt-5 mb-5">Collapse And Accordion</h1>
+    <div class="container">
+        <!-- button with collase -->
+        <button class="btn btn-primary mb-4" data-target="#collapse-1" data-toggle="collapse">
+            Read More
+        </button>
+        <div class="collapse" id="collapse-1">
+            <div class="card">
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, consequuntur, modi exercitationem non commodi nisi voluptatem architecto a suscipit saepe dolorum itaque earum maiores debitis laudantium nulla atque. Quas, consectetur.</p>
+                </div>
+            </div>
+        </div>
+        <!-- button with collase -->
+        
+        <div id="accordion" role="tablist">
+            <div class="card">
+                <div class="card-header" role="tab">
+                    <h4 class="mb-0">
+                        <a data-toggle="collapse" href="#section-1">Section 1</a>
+                    </h4>
+                </div>
+                <div class="collapse show" id="section-1" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci et sit impedit officiis dolorum necessitatibus mollitia accusantium aliquid autem vero sed animi qui unde vitae sint ipsa, accusamus eius laborum.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab">
+                    <h4 class="mb-0">
+                        <a data-toggle="collapse" href="#section-2">Section 2</a>
+                    </h4>
+                </div>
+                <div class="collapse " id="section-2" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci et sit impedit officiis dolorum necessitatibus mollitia accusantium aliquid autem vero sed animi qui unde vitae sint ipsa, accusamus eius laborum.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab">
+                    <h4 class="mb-0">
+                        <a data-toggle="collapse" href="#section-3">Section 3</a>
+                    </h4>
+                </div>
+                <div class="collapse " id="section-3" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci et sit impedit officiis dolorum necessitatibus mollitia accusantium aliquid autem vero sed animi qui unde vitae sint ipsa, accusamus eius laborum.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+
+<button class="btn btn-primary" data-toggle="collapse" data-target="#readMore">
+    Read More
+</button>
+
+<div class="collapse" id="readMore">
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita porro exercitationem quam tempora velit autem numquam ipsa ut nisi voluptate ratione a assumenda aperiam, dolor cupiditate praesentium in vel. Fugit.</p>
+</div>
+
+
+<div class="accordion" role="tablsit">
+    <div class="card">
+        <div class="card-header" role="tab">
+            <a class="mb-4" href="#section-section" data-toggle="collapse">Section</a>
+        </div>
+        <div class="card-body collapse" id="section-section" data-parent="#accordion">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit fuga nesciunt dignissimos ad similique eos blanditiis hic quod, alias dolorum et quos minima, dicta, commodi quibusdam cumque placeat accusantium ut?
+        </div>
+    </div>
+
+</div>
+
+      <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

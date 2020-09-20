@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buttons and buttons group</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="display-4 text-center text-capitalize mb-5">buttons & buttons group</h1>
+    <div class="container" style="padding: 200px 0;">
+        <!-- Buttons -->
+        <button type="button" class="text-capitalize btn btn-primary">primary</button>
+        <button type="button" class="text-capitalize btn btn-secondary">secondary</button>
+        <button type="button" class="text-capitalize btn btn-success">success</button>
+        <button type="button" class="text-capitalize btn btn-info">info</button>
+        <button type="button" class="text-capitalize btn btn-warning">warning</button>
+        <button type="button" class="text-capitalize btn btn-danger">danger</button>
+        <button type="button" class="text-capitalize btn btn-link">link</button>
+        <br><br><hr>
+        <!-- Buttons -->
+        <!-- buttons tags -->
+        <a href="#" class="btn btn-primary " role="button">Link</a>
+        <button class="btn btn-info" type="submit">Button</button>
+        <input class="btn btn-info" type="button" value="Input">
+        <input class="btn btn-info" type="button" value="Submit">
+        <input class="btn btn-info" type="button" value="Reset">
+        <br><br><hr>
+        <!-- buttons tags -->
+        <!-- outline button -->
+        <button class="btn btn-outline-primary" type="button">Primary</button>
+        <button class="btn btn-outline-secondary" type="button">Secondary</button>
+        <button class="btn btn-outline-info" type="button">Info</button>
+        <button class="btn btn-outline-warning" type="button">Warning</button>
+        <button class="btn btn-outline-danger" type="button">Danger</button>
+        <button class="btn btn-outline-success" type="button">success</button>
+        <button class="btn btn-outline-dark" type="button">Dark</button>
+        <br><br><hr>
+        <!-- outline button -->
+        <!-- buttons sizes -->
+        <button type="button" class="btn btn-primary btn-lg">Large Button</button>
+        <button type="button" class="btn btn-primary btn-md">Medium Button</button>
+        <button type="button" class="btn btn-secondary btn-sm">Small Button</button><br><br>
+        <button type="button" class="btn btn-dark btn-block">Block Level Button</button>
+        <br><br><hr>
+        <!-- buttons sizes -->
+        <!-- states button -->
+        <button type="button" class="btn btn-info">Regular Button</button>
+        <button type="button" class="btn btn-info active">Active Button</button>
+        <button type="button" class="btn btn-info disabled">Disabled Button</button>
+<br><br>
+
+        <button type="button" class="btn btn-danger mt-3 btn-toggle" data-toggle="button">Toggle State</button>
+        <br><br><hr>
+        <!-- states button -->
+        <!-- button dropdown -->
+        <div class="dropdown">
+            <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+                My Dropdown
+            </button>
+            <div class="dropdown-menu bg-primary ">
+                <a href="#" class="dropdown-item text-danger">Link One</a>
+                <a href="#" class="dropdown-item text-danger">Link Two</a>
+                <a href="#" class="dropdown-item text-danger">Link Three</a>
+            </div>
+        </div>
+        <br><br><hr>
+        <!-- button dropdown -->
+        <!-- button dropdown -->
+        <div class="dropdown dropup">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                My Dropdown
+            </button>
+            <div class="dropdown-menu bg-primary ">
+                <a href="#" class="dropdown-item text-danger">Link One</a>
+                <a href="#" class="dropdown-item text-danger">Link Two</a>
+                <a href="#" class="dropdown-item text-danger">Link Three</a>
+            </div>
+        </div>
+        <br><br><hr>
+        <!-- button dropdown -->
+        <!-- button dropdown -->
+        <div class="dropdown dropright">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                My Dropdown
+            </button>
+            <div class="dropdown-menu bg-primary ">
+                <a href="#" class="dropdown-item text-danger">Link One</a>
+                <a href="#" class="dropdown-item text-danger">Link Two</a>
+                <a href="#" class="dropdown-item text-danger">Link Three</a>
+            </div>
+        </div>
+        <br><br><hr>
+        <!-- button dropdown -->
+        <!-- button dropdown -->
+        <div class="dropdown dropleft">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                My Dropdown
+            </button>
+            <div class="dropdown-menu bg-primary ">
+                <a href="#" class="dropdown-item text-danger">Link One</a>
+                <a href="#" class="dropdown-item text-danger">Link Two</a>
+                <a href="#" class="dropdown-item text-danger">Link Three</a>
+            </div>
+        </div>
+        <br><br><hr>
+        <!-- button dropdown -->
+        <!-- splite dropdown -->
+       <div class="btn-group">
+           <button class="btn btn-primary" type="button">My Button</button>
+           <button class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" type="button">
+               <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link One</a>
+                <a class="dropdown-item" href="#">Link Two</a>
+                <a class="dropdown-item" href="#">Link Three</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Link Four</a>
+            </div>
+       </div>
+       <br><br><hr>
+        <!-- splite dropdown -->
+        <!-- splite dropdown -->
+       <div class="btn-group">
+        <button class="btn btn-primary" type="button">My Button</button>
+        <button class="btn btn-primary dropdown-toggle " data-toggle="dropdown" type="button">
+            <span>Toggle Dropdown</span>
+         </button>
+         <div class="dropdown-menu">
+             <a class="dropdown-item" href="#">Link One</a>
+             <a class="dropdown-item" href="#">Link Two</a>
+             <a class="dropdown-item" href="#">Link Three</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item" href="#">Link Four</a>
+         </div>
+       
+    </div>
+    <br><br><hr>
+     <!-- splite dropdown -->
+
+     <!-- button group -->
+     <div class="btn-group">
+     <button class="btn btn-secondary" type="button">Left</button>
+     <button class="btn btn-primary" type="button">Middle</button>
+     <button  class="btn btn-secondary"type="button">Right</button>
+    </div>
+    <br><br>
+
+    <div class="btn-toolbar" role="toolbar">
+
+        <div class="btn-group mr-2">
+            <button class="btn btn-primary" type="button">1</button>
+            <button class="btn btn-primary" type="button">2</button>
+            <button class="btn btn-primary" type="button">3</button>
+            <button class="btn btn-primary" type="button">4</button>
+        </div>
+        <div class="btn-group mr-2">
+            <button class="btn btn-primary" type="button">5</button>
+            <button class="btn btn-primary" type="button">6</button>
+            <button class="btn btn-primary" type="button">7</button>
+        </div>
+        <div class="btn-group">
+        <button class="btn btn-primary" type="button">8</button>
+        </div>
+    </div>
+    <br><br><hr>
+
+    <div class="btn-group-vertical">
+        <button class="btn btn-secondary" type="button">Left</button>
+        <button class="btn btn-secondary" type="button">Middle</button>
+        <button class="btn btn-secondary" type="button">Right</button>
+    </div>
+     <!-- button group -->
+
+    </div><!-- contianer -->
+
+
+
+
+    <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+</body>
+</html>

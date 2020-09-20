@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    background: transparent;
+}
+.navbar .navbar-brand{
+    font-size:30px;
+}
+.navbar ul li a{
+    color: #B33771;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.home-page{
+    background:linear-gradient(rgba(2, 26, 22, 0.651),rgba(1, 29, 24, 0.795),rgba(0, 0, 0, 0.801)),url(home.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.home-word{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+}
+.section-header{
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+.section-header h2{
+    font-weight: 800;
+    margin-top: 50px;
+}
+.progress{
+    height: 3px;
+    background: rgb(205, 224, 241);
+}
+.progress-bar{
+    width: 60%;
+}
+.about-word{
+    margin-top: 100px;
+}
+.about-speech{
+    font-size:20px;
+}
+.services{
+    margin-top: 80px;
+    background: #2C3A47;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.services .section-header h2{
+    color: white;
+}
+.services .card{
+    background: #2f3640;
+    transition: 0.7s;
+}
+.services .card:hover{
+    transform: scale(0.8);
+    background: transparent;
+}
